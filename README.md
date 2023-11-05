@@ -2,6 +2,24 @@
 
 Bag of Baselines implements several multi-objective opimisation methods to create a performance benchmark on two small datasets. To learn more about this work, check out the [publication](https://arxiv.org/abs/2105.01015).
 
+## Run the example code
+Follow these steps to run Python scripts in the [examples](https://github.com/automl/multi-obj-baselines/tree/main/examples) directory.
+
+```
+# Install Poetry if not exists
+# curl -sSL https://install.python-poetry.org | python3 -
+
+# Activate the virtual environment
+poetry shell
+
+# Install the dependencies
+poetry install
+
+# Run the code
+cd examples
+python random_search.py
+```
+
 ### Methods
 
 The following methods are proposed and implemented:
